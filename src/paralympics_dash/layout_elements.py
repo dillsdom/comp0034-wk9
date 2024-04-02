@@ -1,7 +1,7 @@
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 
-from paralympics_dash.figures import line_chart, bar_gender, scatter_geo
+from figures import line_chart, bar_gender, scatter_geo
 
 # Figures
 map = scatter_geo()

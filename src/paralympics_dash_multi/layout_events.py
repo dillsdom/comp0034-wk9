@@ -1,7 +1,7 @@
 """ Contains variables for all the rows and elements in the 'charts' page """
 import dash_bootstrap_components as dbc
 from dash import html, dcc, get_asset_url
-from paralympics_dash_multi.figures import scatter_geo, get_event_data
+from figures import scatter_geo, get_event_data
 
 # Create the scatter map
 map = scatter_geo()

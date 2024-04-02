@@ -1,7 +1,7 @@
 """ Contains variables for all the rows and elements in the 'charts' page """
 import dash_bootstrap_components as dbc
 from dash import html, dcc, get_asset_url
-from paralympics_dash_multi.figures import line_chart, bar_gender
+from figures import line_chart, bar_gender
 
 # Create the Plotly Express line chart object, e.g. to show number of sports
 line = line_chart("sports")

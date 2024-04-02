@@ -1,7 +1,9 @@
 # Page with the map and stats card
 from dash import register_page
 import dash_bootstrap_components as dbc
-from paralympics_dash_multi import layout_events
+import sys
+sys.path.append("src/paralympics_dash_multi")
+import layout_events
 
 import src.paralympics_dash.layout_elements
 
